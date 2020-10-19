@@ -7,7 +7,7 @@ E('clico em fazer login') do
   @login.acessar_login
 end
 
-Quando(/ˆdigito meu "([ˆ"]*)" e "([ˆ"]*)"$/) do |usuario, senha|
+Quando(/^digito meu "([^"]*)" e "([^"]*)"$/) do |usuario, senha|
   @login.inserir_dados(usuario, senha)
 end
 
