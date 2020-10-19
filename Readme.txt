@@ -1,7 +1,7 @@
 Desafio Kabum:
 
 Pre-requisitos:
-Navegador Firefox e selenium-webdriver
+Navegador Firefox e geckodriver
 
 Dependencias utilizadas: Cucumber, Ruby, Selenium, Capybara e Rspec
 
@@ -19,3 +19,4 @@ Espero que gostem!
 
 Obrigado
 
+Obs: Caso ocorra erro para a instalação da gem nokorigi, esse link https://nokogiri.org/tutorials/installing_nokogiri.html contém um tutorial para resolver.
